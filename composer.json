@@ -1,18 +1,18 @@
 {
-    "name": "artistas/laravel-pagseguro",
-    "description": "PagSeguro Checkout Transparente e Pagamento Recorrente(Assinaturas) no Laravel 5.*",
+    "name": "michelmelo/laravel-easypay",
+    "description": "EasyPay :: Checkout, Transparente e Pagamento Recorrente(Assinaturas) no Laravel 5.*",
     "type": "library",
     "license": "MIT",
-    "keywords": ["laravel", "pagseguro", "transparente", "recorrente", "assinaturas"],
+    "keywords": ["laravel", "EasyPay", "transparente", "recorrente", "assinaturas"],
     "authors": [
         {
-            "name": "Fernando Henrique Bandeira",
-            "email": "fernando.bandeira94@gmail.com"
+            "name": "Michel Melo",
+            "email": "eu@michelmelo.pt"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Artistas\\PagSeguro\\": "src/Artistas/"
+            "MichelMelo\\EasyPay\\": "src/"
         }
     },
     "minimum-stability": "dev",
@@ -23,12 +23,12 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Artistas\\PagSeguro\\PagSeguroServiceProvider"
+                "MichelMelo\\EasyPay\\EasyPayServiceProvider"
             ],
             "aliases": {
-                "PagSeguro": "Artistas\\PagSeguro\\PagSeguroFacade",
-                "PagSeguroRecorrente": "Artistas\\PagSeguro\\PagSeguroRecorrenteFacade",
-                "PagSeguroBoleto": "Artistas\\PagSeguro\\PagSeguroBoletoFacade"
+                "EasyPay": "MichelMelo\\EasyPay\\EasyPayFacade",
+                "EasyPayRecorrente": "MichelMelo\\EasyPay\\EasyPayRecorrenteFacade",
+                "EasyPayBoleto": "MichelMelo\\EasyPay\\EasyPayBoletoFacade"
             }
         }
     }
