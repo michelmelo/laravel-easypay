@@ -26,9 +26,7 @@
                 "MichelMelo\\EasyPay\\EasyPayServiceProvider"
             ],
             "aliases": {
-                "EasyPay": "MichelMelo\\EasyPay\\EasyPayFacade",
-                "EasyPayRecorrente": "MichelMelo\\EasyPay\\EasyPayRecorrenteFacade",
-                "EasyPayBoleto": "MichelMelo\\EasyPay\\EasyPayBoletoFacade"
+                "EasyPay": "MichelMelo\\EasyPay\\EasyPayFacade"
             }
         }
     }
