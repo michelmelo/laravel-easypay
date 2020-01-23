@@ -1,6 +1,6 @@
 <?php
 
-Route::group(['namespace' => 'MichelMelo\PagSeguro'], function () {
-    Route::get('/pagseguro/session', 'PagSeguroController@session');
-    Route::get('/pagseguro/javascript', 'PagSeguroController@javascript');
+Route::group(['namespace' => 'MichelMelo\EasyPay'], function () {
+    Route::get('/easypay/session', 'EasyPayController@session');
+    Route::get('/easypay/javascript', 'EasyPayController@javascript');
 });

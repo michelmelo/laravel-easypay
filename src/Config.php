@@ -9,36 +9,26 @@ return [
     | Checa se utilizará o Sandbox ou Production.
     |
     */
-    'sandbox' => env('EasyPay_SANDBOX', true),
+    'sandbox' => env('EASYPAY_SANDBOX', true),
 
     /*
     |--------------------------------------------------------------------------
-    | Email
+    | APIKey
     |--------------------------------------------------------------------------
     |
-    | Conta de email do Vendedor.
+    | Chave de Acesso.
     |
     */
-    'email' => env('EasyPay_EMAIL', ''),
+    'APIKey' => env('EASYPAY_APIKEY', ''),
 
     /*
     |--------------------------------------------------------------------------
     | Token
     |--------------------------------------------------------------------------
     |
-    | Token do Vendedor.
+    | Conta de Acesso.
     |
     */
-    'token' => env('EasyPay_TOKEN', ''),
-
-    /*
-    |--------------------------------------------------------------------------
-    | NotificationURL
-    |--------------------------------------------------------------------------
-    |
-    | URL de resposta para notificações do EasyPay.
-    |
-    */
-    'notificationURL' => env('EasyPay_NOTIFICATION', ''),
+    'AccountId' => env('EASYPAY_ACCOUNTID', ''),
 
 ];
