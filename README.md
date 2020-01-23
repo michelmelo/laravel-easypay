@@ -48,7 +48,7 @@ try {
       'paymentMethod' => 'boleto'
     ]);
 }
-catch(\MichelMelo\EasyPay\PagSeguroException $e) {
+catch(\MichelMelo\EasyPay\EasyPayException $e) {
     $e->getCode(); //codigo do erro
     $e->getMessage(); //mensagem do erro
 }
